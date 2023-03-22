@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.MegaSena">
+   <children>
+      <Button fx:id="btnRoll" layoutX="191.0" layoutY="269.0" mnemonicParsing="false" onAction="#BtncRollClick" onMouseEntered="#BtnMouseEnter" onMouseExited="#BtnMouseExit" prefHeight="40.0" prefWidth="150.0" style="-fx-border-color: #00f;" text="Role os Números">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="n1Txt" alignment="CENTER" layoutX="14.0" layoutY="186.0" prefHeight="57.0" prefWidth="71.0" style="-fx-background-color: FFFFFF; -fx-border-color: #00F;" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="n2Txt" alignment="CENTER" layoutX="98.0" layoutY="186.0" prefHeight="57.0" prefWidth="71.0" style="-fx-background-color: FFFFFF; -fx-border-color: #00F;" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="n3Txt" alignment="CENTER" layoutX="189.0" layoutY="186.0" prefHeight="57.0" prefWidth="71.0" style="-fx-background-color: FFFFFF; -fx-border-color: #00F;" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="n4Txt" alignment="CENTER" layoutX="273.0" layoutY="186.0" prefHeight="57.0" prefWidth="71.0" style="-fx-background-color: FFFFFF; -fx-border-color: #00F;" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="n5Txt" alignment="CENTER" layoutX="363.0" layoutY="186.0" prefHeight="57.0" prefWidth="71.0" style="-fx-background-color: FFFFFF; -fx-border-color: #00F;" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="n6Txt" alignment="CENTER" layoutX="447.0" layoutY="186.0" prefHeight="57.0" prefWidth="71.0" style="-fx-background-color: FFFFFF; -fx-border-color: #00F;" textAlignment="CENTER">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="103.0" fitWidth="332.0" layoutX="100.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/caixaLoteria.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
