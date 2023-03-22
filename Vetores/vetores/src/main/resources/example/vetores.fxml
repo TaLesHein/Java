@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.VetController">
+   <children>
+      <Spinner fx:id="spin" layoutX="34.0" layoutY="42.0" prefHeight="44.0" prefWidth="117.0" style="-fx-font-size: 18;" />
+      <Button fx:id="btnAdc" layoutX="175.0" layoutY="49.0" mnemonicParsing="false" onAction="#btnAdcClick" prefHeight="29.0" prefWidth="100.0" text="Adicionar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRem" layoutX="175.0" layoutY="86.0" mnemonicParsing="false" onAction="#btnRemClick" prefHeight="29.0" prefWidth="100.0" text="Remover">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOrd" layoutX="175.0" layoutY="125.0" mnemonicParsing="false" onAction="#btnOrdClick" prefHeight="29.0" prefWidth="100.0" text="Ordenar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ListView fx:id="listView" layoutX="309.0" layoutY="74.0" prefHeight="267.0" prefWidth="202.0" />
+      <Label layoutX="309.0" layoutY="49.0" text="Vetor">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblVet" layoutX="487.0" layoutY="49.0" text="[ 0 ]">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
