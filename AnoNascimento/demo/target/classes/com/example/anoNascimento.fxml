@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="189.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AnoController">
+   <children>
+      <Label alignment="CENTER" layoutX="36.0" layoutY="31.0" prefHeight="43.0" prefWidth="145.0" text="Ano de Nascimento">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="36.0" layoutY="117.0" prefHeight="43.0" prefWidth="100.0" text="Idade">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblAge" alignment="CENTER" layoutX="127.0" layoutY="117.0" prefHeight="43.0" prefWidth="54.0" text="0" textFill="#ff0505">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCalc" alignment="CENTER" layoutX="109.0" layoutY="80.0" mnemonicParsing="false" onAction="#btnCalcClick" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #3881E0; -fx-border-color: #164D94;" text="Calcular" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="140.0" fitWidth="145.0" layoutX="329.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/calculatorIcon.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtYear" alignment="CENTER" layoutX="194.0" layoutY="37.0" prefHeight="25.0" prefWidth="109.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

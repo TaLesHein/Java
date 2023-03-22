@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="269.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.FatorialController">
+   <children>
+      <Spinner fx:id="spin" editable="false" layoutX="14.0" layoutY="88.0" prefHeight="95.0" prefWidth="161.0" scaleShape="false" style="-fx-font-size: 30;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Spinner>
+      <Label alignment="CENTER" layoutX="176.0" layoutY="72.0" prefHeight="104.0" prefWidth="44.0" text="!">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="236.0" layoutY="97.0" text="=">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblFat" alignment="CENTER" layoutX="291.0" layoutY="106.0" text="0" textFill="RED">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="223.0" fitWidth="343.0" layoutX="377.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/bonequinhoExc.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
