@@ -1,2 +1,2 @@
-# JavaFX
- My JavaFX Study Projects
+# Java
+ My Java Study Projects
